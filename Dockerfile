@@ -17,7 +17,7 @@ RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
 USER node-red
 
 # package.json contains Node-RED NPM module and node dependencies
-RUN npm install -g --unsafe-perm node-red@next
+RUN npm install --unsafe-perm node-red@next
 
 # User configuration directory volume
 EXPOSE 1880
