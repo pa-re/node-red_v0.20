@@ -27,3 +27,4 @@ ENV FLOWS=flows.json
 ENV NODE_PATH=/usr/src/node-red/node_modules:/data/node_modules
 
 CMD ["npm", "start", "--", "--userDir", "/data"]
+
